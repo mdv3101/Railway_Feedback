@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DataVal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--<style>
+  	.styling{
+  		height:32vh;
+  	}
+  	.setheight{
+  		height:37vh;
+  	}
+  	#main ul {
+		list-style-type: none;
+	    //margin: 0;
+	    //padding: 0;
+		}
+	#main li{
+		display:inline;
+		margin:10px;
+		font-size: 20px;
+		padding: 8px;
+		cursor: pointer;
+	}
+	#text-content{
+		margin-top:30px;
+		margin-left:50px;
+    	//height:37vh;
+    	width:85%;
+    	border:2px solid black;
+	}
+	#output-content{
+		margin-top:30px;
+		margin-left:50px;
+    	height:37vh;
+    	width:85%;
+    	border:2px solid black;
+	}
+	#file-content{
+		margin-top:30px;
+		margin-left:50px;
+    	//height:37vh;
+    	width:85%;
+    	border:2px solid black;
+	}
+	#web-content{
+		margin-top:30px;
+		margin-left:50px;
+    	//height:37vh;
+    	width:85%;
+    	border:2px solid black;
+	}
+	#twitter-content{
+		margin-top:30px;
+		margin-left:50px;
+    	//height:37vh;
+    	width:85%;
+    	border:2px solid black;
+	}
+	#search-content{
+		margin-top:30px;
+		margin-left:50px;
+    	//height:37vh;
+    	width:85%;
+    	border:2px solid black;
+	}
+	#text-content h4{
+    	width:90px;
+    	margin-top:-10px;
+    	margin-left:20px;
+    	background:white;
+	}
+	#output-content h4{
+    	width:110px;
+    	margin-top:-10px;
+    	margin-left:20px;
+    	background:white;
+	}
+	#file-content h4{
+    	width:100px;
+    	margin-top:-10px;
+    	margin-left:20px;
+    	background:white;
+	}
+	#web-content h4{
+    	width:140px;
+    	margin-top:-10px;
+    	margin-left:20px;
+    	background:white;
+	}
+	#twitter-content h4{
+    	width:170px;
+    	margin-top:-10px;
+    	margin-left:20px;
+    	background:white;
+	}
+	#search-content h4{
+    	width:170px;
+    	margin-top:-10px;
+    	margin-left:20px;
+    	background:white;
+	}
+	@media screen and (max-width:800px) {
+		.styling{
+			height:auto;
+		}
+		.setheight{
+			height:auto;
+		}	  
+	}
+  </style>-->
+  <style>
+  	
+	tr{
+		border-bottom: 3px groove;
+	}
+	td {
+  
+  		padding:20px;
+  
+	}
+    .active{color:white;}
+  	.line{border-right: 2px groove;min-height:98.5vh;overflow-y:hidden;}
+  </style>
+</head>
+<body class="line">  
+	<div class="navbar navbar-inverse"  style="width:101%;padding-bottom:1px;" id="main">
+		<ul style="font-size: 24px; color: gray;margin-top: 5px;cursor: pointer;">
+			<li class="active" style="display: inline;margin-right: 20px"; data-toggle="tab" href="#emergency">
+				Emergency
+			</li>
+			<li style="display:inline;" data-toggle="tab" href="#feedback">
+				Feedback
+			</li>
+		</ul>
+	</div>
+		<div class='tab-content'>
+			<div id="emergency" class='tab-pane fade in active'>
+				<div id='emergency-content' style="width:90%;padding: 50px;margin:auto;background:white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+					<table>
+						<tr>
+							<td style="color:black" width="180%">Hello we kjhjdh hdkjwh ashidwe a;ldjooe ihiodi ihdiwyd isahdkhu ukuhdiwhd skahdiwhdi iediewhyd dhikdhwikd uusidywid  fhkhf kjrfhkh erkfhkehf ekhfkehf i</td>
+							<td width="20%"><button type="button" class="btn btn-info"><b>Reply</b></button></td>
+						</tr>
+
+						<tr>
+							<td style="color:black" width="180%">Hello we kjhjdh hdkjwh ashidwe a;ldjooe ihiodi ihdiwyd isahdkhu ukuhdiwhd skahdiwhdi iediewhyd dhikdhwikd uusidywid  fhkhf kjrfhkh erkfhkehf ekhfkehf i</td>
+							<td width="20%"><button type="button" class="btn btn-info"><b>Reply</b></button></td>
+						</tr>
+					</table>
+				</div>
+					
+			</div>
+	        <div id="feedback" class='tab-pane fade'>
+				<div id='feedback-content' style="width:90%;padding: 50px;margin:auto;background:white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+					<table>
+						<tr>
+							<td style="color:black" width="180%">Hello we kjhjdh hdkjwh ashidwe a;ldjooe ihiodi ihdiwyd isahdkhu ukuhdiwhd skahdiwhdi iediewhyd dhikdhwikd uusidywid  fhkhf kjrfhkh erkfhkehf ekhfkehf i</td>
+							<td width="20%"><button type="button" class="btn btn-info"><b>Reply</b></button></td>
+						</tr>
+
+						<tr>
+							<td style="color:black" width="180%">Hello we kjhjdh hdkjwh ashidwe a;ldjooe ihiodi ihdiwyd isahdkhu ukuhdiwhd skahdiwhdi iediewhyd dhikdhwikd uusidywid  fhkhf kjrfhkh erkfhkehf ekhfkehf i</td>
+							<td width="20%"><button type="button" class="btn btn-info"><b>Reply</b></button></td>
+						</tr>
+					</table>
+				</div>	
+			</div>
+			
+		</div>
+</body>
+</html>
